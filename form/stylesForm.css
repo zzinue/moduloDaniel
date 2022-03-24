@@ -1,0 +1,47 @@
+body {
+    font-family: "Helvetica Neue";
+    color: #203360;
+}
+
+.register {
+    padding: 20px;
+    background: linear-gradient(#F8F9FB, #C5CDE0);
+    width: 500px;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+input {
+    width: 250px;
+    margin: 4px;
+}
+
+select {
+    width: 250px;
+    margin: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 4px;
+}
+
+p {
+    text-align: center;
+    color: gray;
+}
+
+a:not(:last-child) {
+    text-decoration: none;
+    display: block;
+}
+
+.left {
+    font-size: medium;
+    text-align-last: right;
+}

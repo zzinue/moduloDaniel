@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            tabla
+        </title>
+    </head>
+    <body>
+        <table style="border: 1px solid black">
+            <thead>
+               <tr>
+                   <th>nombre</th>
+                   <th>color</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>victor</td>
+                    <td>verde</td>
+                </tr>
+                <tr>
+                    <td>martha</td>
+                    <td>rojo</td>
+                </tr>
+                <tr>
+                    <td>renato</td>
+                    <td>azul</td>
+                </tr>
+                <tr>
+                    <td>miguel</td>
+                    <td>azul</td>
+                </tr>
+
+            </tbody>
+        </table>
+        
+    </body>
+    <br>
+
+    <style>
+        table ,th ,td {
+            border: 1px solid black;
+            
+            border-radius: 2px;
+        }
+    </style>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="5">
+                    full header
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+           
+            <tr>
+                <td rowspan="3">
+                    aside left
+                </td>
+                
+                    <td>cell1</td>
+                    <td>cell1</td>
+                    <td>cell1</td>
+                    <td rowspan="3">aside right</td>
+               
+                
+                
+            </tr>
+            <tr>
+                <td> cell </td>
+                <td rowspan="2" colspan="2">Inner area</td>
+                
+            </tr>
+            <tr>
+                <td>cell </td>
+                
+            </tr>
+            <tr>
+                <td colspan="5"> full footer</td>
+            </tr>
+      
+
+        </tbody>
+    </table>
+
+    
+</html>
+

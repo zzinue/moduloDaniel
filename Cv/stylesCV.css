@@ -1,0 +1,22 @@
+        * {
+            background-color: rgb(255, 255, 248);
+        }
+        
+        h2 {
+            color: black;
+            text-align: right;
+        }
+        
+        p.description {
+            color: gray;
+            text-align: right;
+        }
+        
+        footer {
+            color: gray;
+            text-align: right;
+        }
+        
+        .skills {
+            padding-left: 500px;
+        }

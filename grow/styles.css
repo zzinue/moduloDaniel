@@ -1,0 +1,24 @@
+.container {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+
+.item {
+    border: 1px solid rgb(27, 162, 252);
+    flex-grow: 1;
+    background-color: yellow;
+}
+
+.special-item {
+    border: 4px soulid green;
+    flex-grow: 2;
+    background-color: rgb(177, 14, 14);
+}
+
+.to-special-item {
+    border: 1px solid cyan;
+    flex-grow: 3;
+    background-color: rgb(41, 92, 187);
+}

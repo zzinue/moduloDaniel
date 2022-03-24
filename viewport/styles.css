@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(120, 88, 150);
+}
+
+.container {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+
+.item {
+    border: 1px solid black;
+    border: ipc solid rgb(190, 201, 95);
+}
+
+@media (max-width: 700px) {
+    body {
+        background-attachment: rgb(87, 79, 196);
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        background-attachment: rgb(116, 150, 150);
+    }
+    .container {
+        flex-direction: column;
+    }
+}

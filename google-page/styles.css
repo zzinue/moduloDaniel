@@ -1,0 +1,110 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: inline-block;
+}
+
+#search {
+    border-radius: 50px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+}
+
+#search {
+    width: 50%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputs-block {
+    margin-top: 40px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+input {
+    margin-left: 40px;
+}
+
+.left {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 600px;
+    justify-content: space-around;
+}
+
+.left a {
+    margin-left: 20px;
+}
+
+.right {
+    display: flex;
+    align-items: flex-end;
+}
+
+.right a {
+    margin: 10px;
+}
+
+.last {
+    margin: 10px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 100px;
+}
+
+.middle {
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 100px;
+}
+
+.google {
+    margin-top: 90px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+#top {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#button-top {
+    background-color: #8ab4f8;
+    border-color: transparent;
+    font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
+.last-container {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesForm.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="register">
+        <h1>Sign up</h1>
+        <h2>It's free and anyone can join</h2>
+
+
+        <form action="/form" method="POST">
+            <div>
+                <label for="firstName">First Name:</label>
+                <input id="firstName" type="text" name="firstName" />
+            </div>
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input id="lastName" type="text" name="lastName" />
+
+            </div>
+            <div>
+                <label for="email">Your Email:</label>
+                <input id="email" type="email" name="email" />
+
+            </div>
+            <div>
+
+                <label for="newPassword">New Password:</label>
+                <input id="white" type="password" name="Password" />
+
+            </div>
+            <div>
+                <label class="am" for="gender">I am:</label>
+                <input id="newPassword" name="newPassword" type="password">
+            </div>
+            <div>
+                <label for="gender">I am</label>
+                <select name="gender" id="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                </select>
+            </div>
+            <div>
+                <label for="birthday">Birthday</label>
+                <input id="birthday" type="date" name="birthday">
+            </div>
+            <div>
+                <label class="left">
+                    <a href=""><small>Why do I need to provide this?</small></a>
+                    <button type="submit">Sign up</button>
+            </div>
+        </form>
+        <hr/>
+        <p><a href="#">Create a Page</a> for a celebrity, band or business.</p>
+    </div>
+</body>
+
+</html>

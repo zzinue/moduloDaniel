@@ -1,0 +1,45 @@
+body {
+    height: 1500px;
+}
+
+header {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: violet;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 50px 0px;
+    b
+}
+
+.non-relative {
+    margin: 50px 0px;
+    border: 1px solid black;
+}
+
+.relative {
+    border: 1px solid black;
+    position: relative;
+    top: 10px;
+}
+
+footer {
+    position: fixed;
+    padding: 10px;
+    background-color: yellowgreen;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+}

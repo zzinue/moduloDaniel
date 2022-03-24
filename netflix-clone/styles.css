@@ -1,0 +1,89 @@
+                    body {
+                        background-color: rgb(0, 0, 0);
+                    }
+                    
+                    .main {
+                        background-color: rgb(0, 0, 0);
+                        display: flex;
+                        align-content: center;
+                        width: 861px;
+                        height: 62px;
+                    }
+                    
+                    .div-header {
+                        display: block;
+                        align-items: center;
+                    }
+                    
+                    #netflix {
+                        width: 120px;
+                        display: flex;
+                        align-items: center;
+                    }
+                    
+                    #netflix:hover {
+                        border: black;
+                        cursor: pointer;
+                    }
+                    
+                    h1 {
+                        color: white;
+                        width: 100%;
+                        font-size: 3.5vw;
+                        font-weight: unset;
+                        margin: 0.67em 0;
+                        display: block;
+                        text-align: center;
+                        font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                    }
+                    
+                    .list-profiles {
+                        max-width: 100%;
+                        background-color: rgb(0, 0, 0);
+                        display: block;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        flex-wrap: wrap;
+                    }
+                    
+                    #del-span {
+                        font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                        text-align: center;
+                        color: gray;
+                    }
+                    
+                    .profile {
+                        display: inline-block;
+                        padding: 0.7em;
+                    }
+                    
+                    img {
+                        width: 200px;
+                        border-radius: 4px;
+                    }
+                    
+                    ul {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                    .user:hover img {
+                        border: 3px solid white;
+                        cursor: pointer;
+                    }
+                    
+                    .user:hover #del-span {
+                        border: 1px solid white;
+                    }
+                    
+                    .admon-profiles {
+                        display: flex;
+                        justify-content: center;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        background-color: white;
+                    }
